@@ -10,7 +10,7 @@ N = 1000
 
 def main():
 
-    # Ensures correct usage
+    # Ensures the user enters one of the csv files
     if len(sys.argv) != 2:
         sys.exit("Usage: python tournament.py FILENAME")
 
